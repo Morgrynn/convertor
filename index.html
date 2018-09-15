@@ -40,9 +40,9 @@
                 <div class="con-box bottom">
                     <!-- the left input section -->
                     <div class="input__wrap left shadow">
-                        <input class="input input--left">
-                        <div class="select">
-                            <select class="input input--left">
+                        <input class="input input--left" id="input" type="number" oninput="inputNum(this.value)" onchange="inputNum(this.value)" >
+                        <div class="select select-btm">
+                            <select class="input-select input--left">
                                 <option value="celsius">Celsius</option>
                                 <option value="fahrenheit">Fahrenheit</option>
                             </select>
@@ -52,9 +52,9 @@
                     <div class="equals-sign">=</div>
                     <!-- the right input section -->
                     <div class="input__wrap right shadow">
-                            <input class="input input--right">
-                            <div class="select">
-                                <select class="input input--right">
+                            <input class="input input--right output ">
+                            <div class="select select-btm">
+                                <select class="input-select input--right">
                                     <option value="celsius">Celsius</option>
                                     <option value="fahrenheit">Fahrenheit</option>
                                 </select>

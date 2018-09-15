@@ -1,6 +1,17 @@
-function convertToF(celsius) {
-    let fahrenheit = ((celsius * 9) / 5) + 32;
-    return fahrenheit;
-}
+const input = document.querySelector(".input");
 
-console.log(convertToF(30));
+function inputNum()
+
+
+
+
+
+
+
+
+
+// function convertToF(celsius) {
+//     let fahrenheit = ((celsius * 9) / 5) + 32;
+//     return fahrenheit;
+// }
+// console.log(convertToF(30));
